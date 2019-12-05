@@ -1,5 +1,7 @@
 # Laravel Weclapp
 
+[![Latest Stable Version](https://poser.pugx.org/geccomedia/weclapp/v/stable)](https://packagist.org/packages/geccomedia/weclapp) [![Total Downloads](https://poser.pugx.org/geccomedia/weclapp/downloads)](https://packagist.org/packages/geccomedia/weclapp) [![License](https://poser.pugx.org/geccomedia/weclapp/license)](https://packagist.org/packages/geccomedia/weclapp)
+
 This repo implements most of the Laravel Eloquent Model for the Weclapp web api.
 
 ## Installation Informations
@@ -41,9 +43,9 @@ Example:
 ```
 <?php namespace Your\Custom\Namespace;
 
-use Geccomedia\Weclapp\WeclappModel;
+use Geccomedia\Weclapp\Model;
 
-class CustomModel extends WeclappModel
+class CustomModel extends Model
 {
     /**
      * The table associated with the model.
@@ -53,3 +55,9 @@ class CustomModel extends WeclappModel
     protected $table = 'custom-api-route';
 }
 ```
+
+## License & Copyright
+
+Copyright (c) 2017 Gecco Media GmbH
+
+[License](LICENSE)
